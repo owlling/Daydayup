@@ -1,0 +1,317 @@
+/* owlling-daydayup 2019.10.06 */
+
+body {
+    background: #ffffff;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+<style>@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: fadein 1s linear 1;
+    -webkit-animation: fadein 1s linear 1;
+    -moz-animation: fadein 1s linear 1;
+    -o-animation: fadein 1s linear 1;
+    -ms-animation: fadein 1s linear 1;
+}
+
+.lines {
+    margin: .6em auto;
+    max-width: 86%;
+    transform: skewY(-5deg);
+}
+
+.days {
+    margin: 0em auto;
+    max-width: 100%;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    border-bottom: 3px solid #A8B2BA
+}
+
+.logo {
+    width: 46%;
+    margin: 4.6rem 0 2.2rem;
+}
+
+nav {
+    border-bottom: 1px solid #A8B2BA;
+    border-top: 1px solid #A8B2BA;
+    font-size: 1.2em;
+    letter-spacing: .2em;
+    padding: .5em 0;
+    overflow: hidden
+}
+
+nav>span {
+    width: 50%;
+    float: left
+}
+
+.nav-left {
+    text-align: left
+}
+
+.nav-right {
+    text-align: right
+}
+
+.mlines {
+    border-bottom: 1px solid #A8B2BA;
+    padding: 3em 0;
+    margin-bottom: 1em;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1
+}
+
+.mlines br {
+    display: none
+}
+
+.results .mlines br {
+    display: block
+}
+
+h1 {
+    font-size: 5rem;
+    line-height: 1.22;
+    font-weight: 800;
+    color: #121212;
+    margin-bottom: .2em
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #3A4249;
+    line-height: 2rem
+}
+
+h3 {
+    font-size: .8rem;
+    font-weight: 600;
+    color: #6E767D;
+    line-height: 2rem
+}
+
+p {
+    font-size: .8rem;
+    color: #A8B2BA;
+}
+
+a {
+    color: #121212;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6E767D;
+    text-decoration: none;
+}
+
+span {
+    color: #121212;
+}
+
+footer.lines {
+    font-size: 1.2em;
+    clear: both;
+    border-bottom: 3px solid #A8B2BA;
+    margin-bottom: 5rem;
+}
+
+footer .footer {
+    padding: .8em;
+    border-top: 1px solid #A8B2BA;
+    border-bottom: 1px solid #A8B2BA;
+    margin-bottom: .2em
+}
+
+.mask {
+    position: fixed;
+    z-index: 99;
+    background: #121212
+}
+
+.mb,
+.mt {
+    width: 100%;
+    left: 0
+}
+
+.mb {
+    bottom: -19rem;
+    height: 20.8rem
+}
+
+.mt {
+    top: -19rem;
+    height: 20.8rem
+}
+
+.mv {
+    bottom: 0;
+    height: 999em;
+    width: 0
+}
+
+.ml,
+.ml2 {
+    left: -19.3rem;
+    width: 20.8rem
+}
+
+.mr,
+.mr2 {
+    right: -19.3rem;
+    width: 20.8rem
+}
+
+.ml2,
+.mr2 {
+    bottom: none;
+    top: 0
+}
+
+@media screen and (max-width:1100px) {
+    .tagline br {
+        display: block
+    }
+    .mb,
+    .mt {
+        height: 20rem
+    }
+    .ml,
+    .ml2,
+    .mr,
+    .mr2 {
+        width: 20rem
+    }
+}
+
+@media screen and (max-width:1000px) {
+    h1 {
+        font-size: 3.2rem;
+        line-height: 1.2;
+        font-weight: 800;
+        margin-bottom: .2em
+    }
+    h2 {
+        font-size: .9rem;
+    }
+    h3 {
+        font-size: .6rem;
+        margin-bottom: -10px;
+        margin-top: -6px;
+    }
+    span {
+        color: #3A4249;
+    }
+    nav {
+        font-size: .6rem;
+        letter-spacing: 0
+    }
+    .logo {
+        width: 80%;
+        margin: 4.6rem 0 2rem;
+    }
+    .days {
+        margin: 0em auto;
+        max-width: 100%;
+    }
+    .img {
+        width: 100%;
+        height: auto;
+    }
+    .mask {
+        position: fixed;
+        z-index: 99;
+        background: #121212
+    }
+    .mb,
+    .mt {
+        width: 100%;
+        left: 0
+    }
+    .mb {
+        bottom: -19.4rem;
+        height: 20.8rem
+    }
+    .mt {
+        top: -19.4rem;
+        height: 20.8rem
+    }
+    .mv {
+        bottom: 0;
+        height: 999em;
+        width: 0
+    }
+    .ml,
+    .ml2 {
+        left: -19.8rem;
+        width: 20.8rem
+    }
+    .mr,
+    .mr2 {
+        right: -19.8rem;
+        width: 20.8rem
+    }
+    .ml2,
+    .mr2 {
+        bottom: none;
+        top: 0
+    }
+}
