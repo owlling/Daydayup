@@ -155,11 +155,17 @@ p {
 a {
     color: #121212;
     text-decoration: none;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
 a:hover {
     color: #6E767D;
     text-decoration: none;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
 span {
